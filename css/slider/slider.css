@@ -1,0 +1,98 @@
+#slider-with-blocks-1 {
+    width: 100%;
+}
+
+.rsContent {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+}
+
+.rsContent img.rsImg{
+    width: 100%;
+}
+.bContainer {
+  position: absolute;
+}
+
+.rsABlock {
+    position: relative;
+    display: block;
+    left: auto;
+    top: auto;
+}
+
+.blockHeadline {
+    font-size: 42px;
+    line-height: 50px;
+}
+.blockSubHeadline {
+    font-size: 32px;
+    line-height: 40px
+}
+.txtCent {
+    text-align: center; 
+    width: 100%; 
+}
+
+.slide1 .bContainer {
+    top: 36%;
+    left: 36%;
+}
+.slide2 .bContainer {
+    top: 36%;
+    left: 36%;
+}
+.slide3 .bContainer {
+    top: 36%;
+    left: 36%;
+}
+.slide4 .bContainer {
+    top: 36%;
+    left: 36%;
+}
+.slide5 .bContainer {
+    top: 36%;
+    left: 36%;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 960px) { 
+    .royalSlider,
+    .rsOverflow {
+    height: 280px !important;
+    }
+  .rsContent {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .blockHeadline {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+  .royalSlider,
+  .rsOverflow {
+    height: 200px !important;
+  }
+  .rsContent {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blockHeadline {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
